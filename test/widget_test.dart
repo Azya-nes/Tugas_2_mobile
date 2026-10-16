@@ -13,6 +13,8 @@ void main() {
     expect(find.text('MUHAMMAD\nAZYAN FIRDAUS'), findsOneWidget);
     expect(find.text('TEKNIK INFORMATIKA'), findsOneWidget);
     expect(find.text("IF D '24"), findsOneWidget);
+    expect(find.text('Cianjur'), findsOneWidget);
+    expect(find.text('@arness____'), findsOneWidget);
     expect(
       find.bySemanticsLabel('Foto profil di pantai saat senja'),
       findsOneWidget,
